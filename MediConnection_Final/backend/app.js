@@ -66,7 +66,7 @@ mongoose
   .catch((err) => console.log(err));
 
 // Setting up node js server
-let port = process.env.PORT || 3003;
+let port = process.env.PORT || 4090;
 let httpServer = http.createServer(app);
 
 const io = new Server(httpServer, {
